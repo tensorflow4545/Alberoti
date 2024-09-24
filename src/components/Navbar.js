@@ -69,11 +69,14 @@ export default function Navbar(){
                  </div>
                </div>
                <div className="flex flex-row items-center justify-between mt-[20px]">
+                <div className="relative">
                 <input
                   type="text"
                   placeholder="Afterglow"
-                  className="px-4 py-2 w-[181px] h-[36px] rounded-[15px] border bg-[#FAFAFB] border-[#646464]"
+                  className="px-4 py-2 w-[181px] h-[36px] rounded-[15px] border bg-[#FAFAFB] border-[#646464] absolute"
                 />
+                <IoIosArrowDropdown className="relative mt-[10px] ml-[150px]" />
+                </div>
                 <div className="flex gap-[10px] items-center justify-center">
                  <div className="text-[12px] text-[#9D9DAA] font-light">Scenario</div>
                  <div className="text-[12px] text-[#676E7E] font-norrmal">Default</div>
